@@ -1,0 +1,19 @@
+.App {
+  
+}
+
+.navbar {
+  background: #F55A5A;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar svg {
+  margin-right: 5px;
+}
+
