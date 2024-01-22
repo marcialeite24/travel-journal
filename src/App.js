@@ -7,10 +7,11 @@ export default function App() {
   const travel = data.map(item => {
     return (
       <Content 
-        key={item.id}
+        key={item.id} {...item}
       />
     )
   })
+
 
   return (
     <div className="App">
