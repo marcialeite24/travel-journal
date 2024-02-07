@@ -10,9 +10,9 @@ export default function Navbar(props) {
             <div className="card-content">
                 <div>
                     <FontAwesomeIcon icon={faLocationDot} className='icon-location'/>
-                    {props.country} 
+                    <span className='country'>{props.country} </span>
                     <a href={`${props.mapsurl}`} className="maps-link">View on Google Maps</a></div>
-                <div></div>
+                <div className='city'>{props.city}</div>
                 <div>
                     <p className='date'>{props.date}</p>
                     <p className='description'>{props.description}</p>

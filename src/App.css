@@ -18,7 +18,7 @@
 }
 
 .card {
-  margin-top: 45px;
+  margin: 45px 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -32,4 +32,29 @@
 
 .card-content {
   width: 400px;
+  font-size: 12px;
+  text-align: left;
+}
+
+.icon-location {
+  color: #F55A5A;
+}
+
+.country {
+  margin: 0 5px;
+  text-transform: uppercase;
+}
+
+.maps-link {
+  margin-left: 5px;
+  color: #918E9B;
+}
+
+.city {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.date {
+  font-weight: 500;
 }
